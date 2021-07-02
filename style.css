@@ -1,0 +1,156 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+text-shadow: goldenrod;
+text-shadow: 1px 1px 1px rgb(241, 55, 9);
+font-size: 2vw;
+}
+.contact_info
+{
+    height: 5.5vh;
+    /* background: rgb(68, 66, 66); */
+    background-color: rgb(37, 68, 34);
+}
+.social_media
+{
+    display: inline;
+    list-style-type: none;
+    padding-right: 3vw;
+    background-color: #e2dbdb;
+    
+}
+
+.social_media_link
+{
+    text-decoration: none;
+    color:rgb(36, 117, 36);
+    font-size: 2vw;
+    
+}
+.know_me
+{
+    display: inline;
+    list-style-type: none;
+    padding-right: 50px;
+    color: green;
+
+}
+.social_media:hover {
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+  }
+
+  .know_me:hover {
+    background-color:red;
+    color: white;
+    cursor: default;
+
+  }
+
+  .social_media_link:hover {
+    background-color: #555;
+    color:red;
+    cursor: pointer;
+
+  }
+  .self_information
+{
+    padding-top: 0%;
+}
+  .my_self
+  {
+      background-color: rgb(204, 176, 176);
+      /* max-height: 50vh; */
+  }
+.text_about_me
+{
+  /* display: flex; */
+  /* position: absolute;
+  height: 100%;
+ width: 100%;
+ color: #45c89d;
+ align-content: center;
+ top: 19rem;
+ padding-bottom: 0%; */
+ 
+}
+.text_about_me
+{
+  font-family: 'Dancing Script', cursive;
+  position: absolute;
+top: 30vh;
+left: 20%;
+transform: translate( -50%, -50% );
+text-align: center;
+color: #45c89d;
+font-weight: bold;
+/* text-shadow: 2px 2px 3px rgba(255,255,255,0.1); */
+}
+   .my_photo
+  {
+  background-color: rgb(41, 38, 38);
+  /* background-image: url(code.jpg); */
+    height: 100%;
+    width: 100%;
+    float: left;
+    display: block;
+  }
+  .about_me {
+    /* position: absolute; */
+    font-size: 4vw;
+    /* height: 50%; */
+    text-shadow: 2px 2px 3px rgba(245, 7, 7, 0.1);
+  }
+  .my_name
+  {
+      /* height: 50%; */
+    /* position: absolute; */
+    /* font-family: 'Dancing Script', cursive; */
+    /* color: crimson; */
+    font-size: 3vw;
+    text-shadow: 0px 3px 0px #b2a98f,
+  }
+  .about_me_paragraph
+  {
+    /* position: absolute; */
+    /* font-family: 'Dancing Script', cursive; */
+    /* color: crimson; */
+    font-weight: bolder;
+    font-size: 2vw;
+    /* height: 50%; */
+
+  }
+  .address
+  {
+    height: 25vh;
+    width: 100%;
+    background-color: rgb(51, 50, 50);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .addresh_heading
+  {
+    color: rgb(233, 148, 114);
+    /* position: absolute; */
+    font-size: 1w;
+
+  }
+  .email
+  {
+    color: rgb(236, 207, 127);
+    /* position: absolute; */
+    font-size: 1w;
+  }
+  .greating_heading
+  {
+      color: black;
+      background-color: rgb(196, 191, 191);
+      text-shadow: rgb(245, 110, 245);
+    font-family: 'Dancing Script', cursive;
+            font-size: 20px;
+  }
